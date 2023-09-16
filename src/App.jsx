@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className={'bg-black text-white h-screen flex justify-center items-center' + 
-        (theme ? 'bg-black text-white text-4xl '  : ' text-4xl text-white w-screen h-screen bg-red-600')} >
+        (theme ? 'bg-black text-white text-4xl '  : ' text-4xl text-white bg-red-600')} >
 
           <button  onClick={()=>
             setTheme(!theme)
